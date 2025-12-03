@@ -49,7 +49,6 @@ func NewGame() *Game {
 	// Place treasures
 	game.Map[2][2] = Treasure
 	game.Map[5][5] = Treasure
-	game.Map[4][4] = Treasure
 
 	// Place player
 	game.Map[game.Player.Y][game.Player.X] = Player
